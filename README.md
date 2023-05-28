@@ -35,7 +35,6 @@ $$
 $$
 
 $$
-
 \mathcal{L} = -\sum_{k=1}^C(1-\epsilon)q(k|x_i)\log p(k|x_i) + \sum_{k=1}^C\frac{\epsilon}{C}\log p(k|x_i)
 $$
 
