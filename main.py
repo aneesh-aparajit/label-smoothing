@@ -38,6 +38,7 @@ class LabelSmoothingCrossEntropyLoss(nn.Module):
 
 
 class LabelSmoothingCrossEntropy(nn.Module):
+    '''As implemented in Fastai2 repository'''
     y_int = True
 
     def __init__(self, eps: float = 0.1, reduction="mean"):
