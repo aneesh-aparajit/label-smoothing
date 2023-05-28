@@ -23,24 +23,25 @@ $$
 Now, we substitute this to the original function:
 
 $$
-\mathcal{L} = -\sum_{k=1}^Cq'(k|x_i)\log p(k|x_i) \\ 
+\mathcal{L} = -\sum_{k=1}^Cq'(k|x_i)\log p(k|x_i)
 $$
 
 $$
-\mathcal{L} = -\sum_{k=1}^C[(1-\epsilon)q(k|x_i)+\frac{\epsilon}{C}]\log p(k|x_i) \\
+\mathcal{L} = -\sum_{k=1}^C[(1-\epsilon)q(k|x_i)+\frac{\epsilon}{C}]\log p(k|x_i)
 $$
 
 $$
-\mathcal{L} = -\sum_{k=1}^C[(1-\epsilon)q(k|x_i)\log p(k|x_i) + \frac{\epsilon}{C}\log p(k|x_i)] \\
+\mathcal{L} = -\sum_{k=1}^C[(1-\epsilon)q(k|x_i)\log p(k|x_i) + \frac{\epsilon}{C}\log p(k|x_i)]
 $$
 
 $$
 
-\mathcal{L} = -\sum_{k=1}^C(1-\epsilon)q(k|x_i)\log p(k|x_i) + \sum_{k=1}^C\frac{\epsilon}{C}\log p(k|x_i) \\
+\mathcal{L} = -\sum_{k=1}^C(1-\epsilon)q(k|x_i)\log p(k|x_i) + \sum_{k=1}^C\frac{\epsilon}{C}\log p(k|x_i)
 $$
 
 $$
-\mathcal{L} = (1-\epsilon)[-\sum_{k=1}^Cq(k|x_i)\log p(k|x_i)] + \frac{\epsilon}{C}[-\sum_{k=1}^C\log p(k|x_i)]$$
+\mathcal{L} = (1-\epsilon)[-\sum_{k=1}^Cq(k|x_i)\log p(k|x_i)] + \frac{\epsilon}{C}[-\sum_{k=1}^C\log p(k|x_i)]
+$$
 
 
 Now, this is essentially:
